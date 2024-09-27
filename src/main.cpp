@@ -1,11 +1,18 @@
 #include <Arduino.h>
+#include <ArduinoBLE.h>
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  Serial.begin(115200);
+
+  if(!BLE.begin()) {
+    Serial.println("Bluetooth Failed");
+    while(1);
+  }
+
+  Serial.println("Bluetooth Started: Waiting for connection...");
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  BLE.poll();
 }
 
