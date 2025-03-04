@@ -20,10 +20,15 @@ Getting Started:
 TODO:
 
 Create Tracer program for the ESP
+
 Test input and output of ESP
+
 Start polling for BLE
+
 Test connection of controller with ESP
+
 Test simple feedback from controller
+
 Translate controller feedback to motor control
 
    
