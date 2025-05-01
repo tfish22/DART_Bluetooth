@@ -2,8 +2,8 @@
 #include <BluetoothSerial.h>
 #include <PS4Controller.h>
 
-#define ESC1_PIN 26
-#define ESC2_PIN 27
+#define ESC1_PIN 32
+#define ESC2_PIN 22
 #define ESC1_CH 0
 #define ESC2_CH 1
 #define FREQ 50
